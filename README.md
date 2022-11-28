@@ -9,10 +9,10 @@ Firstly you should choose direction of the conversion (Celsius to Fahrenheit / F
 After you should input integer ot float type number and push the convert button.
 
 ## Download and start app
-[Download](https://github.com/iba-gomel-students/avayavoda-python-be/archive/refs/heads/task_3.zip) archive and unpack app following commands:
+[Download](https://github.com/avoevoda433/Simple_Web_App/archive/refs/heads/main.zip) archive and unpack app following commands:
 ```
-sudo unzip avayavoda-python-be-task_3.zip
-cd avayavoda-python-be-task_3/task_3
+sudo unzip Simple_Web_App-main.zip
+cd Simple_Web_App-main
 ```
 After unpacking run this app following commands:
 ```
