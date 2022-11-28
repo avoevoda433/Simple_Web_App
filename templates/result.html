@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="/static/styles/result.css">
+</head>
+<body>
+    <form action="{{ url_for('convert_mode') }}" method="get">
+        <div class="title">Direction of the conversion:</div>
+            <div class="direction">
+                <p><label>
+                    <input type="radio" name="direction" value="c2f"/>
+                </label>Celsius to Fahrenheit</p>
+            </div>
+            <div class="direction">
+                <p><label>
+                    <input type="radio" name="direction" value="f2c"/>
+                </label>Fahrenheit to Celsius</p>
+            </div>
+        <div class="title">Input values</div>
+            <div class="values">
+                <p><label>
+                    <input type="text" name="input_value"/>
+                </label></p>
+                <p class="warning">{{ warning_msg }}<p>
+            </div>
+        <div class="title">Result</div>
+            <p>{{ value if value else '-'}}</p>
+        <p><input type="submit" name="submit" value="Convert" class="btn"/></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 10%;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+div{
+    width: 600px;
+}
